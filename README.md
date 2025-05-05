@@ -2,11 +2,11 @@
 ## Задание 1
 
 Выбранное решение:
-
+---
 GitLab CI/CD (облачная версия или self-hosted) + Docker + Kubernetes (опционально).
 
 Обоснование:
-
+---
 Облачная система
 GitLab SaaS (gitlab.com) или развертывание в облаке (AWS, GCP, Azure).
 Альтернатива: GitHub Actions + ArgoCD (но GitLab удобнее для полного CI/CD цикла).
@@ -49,8 +49,9 @@ GitLab Runner можно установить на свои серверы (по
 
 Параллельный запуск тестов
 Разделение тестов на группы (parallel:matrix, test_suite).
----
+
 Альтернативы:
+---
 GitHub Actions + ArgoCD (если нужен GitHub + GitOps).
 Jenkins + Git (но требует больше настройки).
 
